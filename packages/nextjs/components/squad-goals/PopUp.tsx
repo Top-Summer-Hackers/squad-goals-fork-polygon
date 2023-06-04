@@ -60,7 +60,7 @@ export default function MyModal({ isOpen, setIsOpen, joinChallenge }: MyModalPro
                   <div className="mt-6">
                     <p className="text-base text-center text-gray-500">
                       If you don’t completed you will lose your stake!” You are added to the challenge, after sending
-                      the ETH amount to stake.
+                      the MATIC amount to stake.
                     </p>
                   </div>
 

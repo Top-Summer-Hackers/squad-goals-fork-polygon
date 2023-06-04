@@ -49,8 +49,8 @@ const Dashboard = () => {
             </div>
             {/* ETH Staked */}
             <div>
-              <div className="font-semibold text-3xl text-center">14 ETH</div>
-              <div className="font-semibold text-base text-center">ETH Staked</div>
+              <div className="font-semibold text-3xl text-center">14 MATIC</div>
+              <div className="font-semibold text-base text-center">MATIC Staked</div>
             </div>
             {/* Leaderboard Position */}
             <div>
@@ -79,7 +79,7 @@ const Dashboard = () => {
             </div>
             {/* Earned from Authored challenges */}
             <div>
-              <div className="font-semibold text-3xl text-center">2.3 ETH</div>
+              <div className="font-semibold text-3xl text-center">2.3 MATIC</div>
               <div className="font-semibold text-base text-center">Earned from Authored challenges</div>
             </div>
             {/* challenges Initiated */}

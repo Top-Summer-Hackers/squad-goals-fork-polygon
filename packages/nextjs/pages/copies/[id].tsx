@@ -197,7 +197,7 @@ const ChallengeCopyDetail = () => {
               <div className="flex flex-col justify-between gap-2 lg:gap-10">
                 <p className="text-lg text-center lg:text-left">{challengeMetadata.description}</p>
                 <div className="mx-auto text-center lg:text-left lg:mx-0">
-                  <div>stake: {challengeDetail.stakeAmount} ETH</div>
+                  <div>stake: {challengeDetail.stakeAmount} MATIC</div>
                   <div>
                     {" "}
                     duration: {moment.unix(Number(challengeDetail.deadline)).diff(moment(), "days")} days remaining

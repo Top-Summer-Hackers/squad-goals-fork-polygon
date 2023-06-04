@@ -37,7 +37,7 @@ const PreviewChallengeCard = ({
           <div className="text-xs font-medium">{metadata.description}</div>
           {/* stake amount + joining number */}
           <div className="mt-2 grid grid-cols-1 text-sm">
-            <div className="font-semibold truncate pr-2">stake: {stakeAmount != undefined ? stakeAmount : 0} ETH</div>
+            <div className="font-semibold truncate pr-2">stake: {stakeAmount != undefined ? stakeAmount : 0} MATIC</div>
             <div>
               {stakerCount != undefined ? stakerCount : 0}/{maxAmountOfStakers != undefined ? maxAmountOfStakers : 0}{" "}
               spots filled
