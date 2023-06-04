@@ -184,6 +184,7 @@ const ChallengeCopyDetail = () => {
           <div className="w-full">
             {/* challenge detail title*/}
             <h3 className="text-3xl">{challengeMetadata.name}</h3>
+            <h3 className="text-xl">{(challengeCopy && challengeCopy[0]) || ""}</h3>
             {/* description + duration + stake */}
             <div className="mt-5 flex flex-col lg:flex-row items-center gap-5">
               <div className="w-64">
@@ -196,7 +197,7 @@ const ChallengeCopyDetail = () => {
               <div className="flex flex-col justify-between gap-2 lg:gap-10">
                 <p className="text-lg text-center lg:text-left">{challengeMetadata.description}</p>
                 <div className="mx-auto text-center lg:text-left lg:mx-0">
-                  <div>stake: {challengeDetail.stakeAmount} ETH</div>
+                  <div>stake: {challengeDetail.stakeAmount} MATIC</div>
                   <div>
                     {" "}
                     duration: {moment.unix(Number(challengeDetail.deadline)).diff(moment(), "days")} days remaining

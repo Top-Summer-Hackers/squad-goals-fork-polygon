@@ -42,12 +42,12 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   const cSquadGoals = await hre.ethers.getContract("SquadGoals");
   // 2592000 = 30 days
   let tx = await cSquadGoals.createChallenge(
-    hre.ethers.utils.parseEther("0.001"),
+    hre.ethers.utils.parseEther("100"),
     7,
     2592000,
-    "Test Challenge 1",
-    "TEST1",
-    "ipfs://bafyreihstlkwjjb63mt54e5juerm3d5zvcnyimkhxvesqp2aden5ytqyuy/metadata.json",
+    "Exercise 30 days",
+    "EX30",
+    "ipfs://bafyreibwza6whtniq4klw3rjx522sobx6t56ob2ceuxnlxbyibrkkfuknq/metadata.json",
   );
   await tx.wait();
 

@@ -63,7 +63,7 @@ const Home: NextPage = () => {
             <div className="mt-10 lg:mt-0 flex gap-2">
               <div className="text-4xl font-semibold">2.</div>
               <div className="text-lg font-semibold">
-                Show your commitment by staking a specific amount of xDAI. This cryptocurrency is securely locked in a
+                Show your commitment by staking a specific amount of MATIC. This cryptocurrency is securely locked in a
                 smart contract, held safely until your goal&apos;s deadline.
               </div>
             </div>
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
               <div className="text-4xl font-semibold">4.</div>
               <div className="text-lg font-semibold">
                 Upon reaching the deadline, a vote is held. If you&apos;ve achieved your goal and secured a majority of
-                votes, you&apos;ll not only reclaim your staked xDAI but also win the stake lost by others, and bask in
+                votes, you&apos;ll not only reclaim your staked MATIC but also win the stake lost by others, and bask in
                 the glory of becoming an owner of the coveted Challenge NFT. If not, the stake is forfeited, but the
                 experience and lessons learned are yours to keep.
               </div>

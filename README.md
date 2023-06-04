@@ -1,12 +1,11 @@
 # Squad Goals
 
-
 ### Smart contracts Repo with Tests:
+
 https://github.com/Top-Summer-Hackers/squad-goals-contracts
 
 Tests:
 https://github.com/Top-Summer-Hackers/squad-goals-contracts/tree/main/test
-
 
 ## Summary
 
@@ -20,7 +19,7 @@ A crypto protocol that helps you achieve your goals with your squad. Set a goal,
 
 3. Find a Squad or join one
 
-4. Stake xDAI to start the challenge
+4. Stake MATIC to start the challenge
 
 5. When the challenge deadline is met, vote for all the participants if they have succeeded or not
 
@@ -28,29 +27,29 @@ A crypto protocol that helps you achieve your goals with your squad. Set a goal,
 
 7. If you loose, your stake is forfeited: 10% for to challenge creator, 10% to the protocol, and the rest for the winners in the squad.
 
-8. Earn xDAI by creating popular challenges in the community
+8. Earn MATIC by creating popular challenges in the community
 
 ---
 
 ### How to create a Challenge
 
-1. Go to the 'Launch' page 
+1. Go to the 'Launch' page
 
-2. Fill in the form: 
+2. Fill in the form:
 
-    - Name
+   - Name
 
-    - Description
+   - Description
 
-    - Duration (in days)
+   - Duration (in days)
 
-    - xDAI stake
+   - MATIC stake
 
-    - Maximum Number of Stakers
+   - Maximum Number of Stakers
 
-    - Tags
+   - Tags
 
-    - NFT Image
+   - NFT Image
 
 3. Click 'Launch'
 
@@ -59,47 +58,45 @@ A crypto protocol that helps you achieve your goals with your squad. Set a goal,
 ---
 
 ## Pitchdeck
+
 https://pitch.com/public/a736a532-3233-40f7-be45-f370c7fdd4f2
 
 ## Video Demo
+
 https://vimeo.com/831004061?share=copy
 
 ## Live Site
-https://squadgoals.vercel.app
 
+https://squadgoals.vercel.app
 
 ---
 
-
 ## Screen Shots
 
-
 #### home page
+
 ![home page](./assets/home-page.png)
 
-
 #### challenge list
+
 ![Challenge List](./assets/challenge-list.png)
 
-
 #### challenge detail
+
 ![Challenge Detail](./assets/challenge-detail.png)
 
-
 #### create challenge
+
 ![Create Challenge](./assets/create-challenge.png)
 
-
 #### user dashboard
-![User Dashboard](./assets/user-dashboard.png)
 
+![User Dashboard](./assets/user-dashboard.png)
 
 ### Figma designs
 
 https://www.figma.com/file/MmD6uGCyfhNkYV6oW18CrZ/squad-goals?type=design&node-id=0-1&t=rJ5h8YdvhOz9BYWz-0
 
-
-### Smart Contract Documentation 
+### Smart Contract Documentation
 
 https://book-mu-fawn.vercel.app/
-
